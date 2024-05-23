@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #141414;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.hero {
+    height: 80vh;
+    background: url('https://isquad.tv/wp-content/uploads/2018/08/Netflix-Background-1024x576.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin: 0 0 20px 0;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin: 0 0 20px 0;
+}
+
+.hero-content .buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background-color: #e50914;
+    color: #ffffff;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.row {
+    padding: 60px 20px 20px 20px;
+}
+
+.row h2 {
+    margin-bottom: 20px;
+}
+
+.row-content {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+.row-content .movie {
+    margin-right: 10px;
+    flex: 0 0 auto;
+}
+
+.row-content .movie img {
+    height: 225px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #141414;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
